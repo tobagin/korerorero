@@ -5,8 +5,6 @@ gi.require_version("WebKit", "6.0")
 gi.require_version("GdkPixbuf", "2.0")
 from gi.repository import Gtk, Adw, WebKit, Gio, GdkPixbuf
 
-BASE64_ICON = ""
-
 BUS_NAME = "com.mudeprolinux.korerorero"
 
 class WebViewWindow(Gtk.Window):
